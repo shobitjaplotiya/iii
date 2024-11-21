@@ -28,5 +28,6 @@ def page_not_found(e):
 
 
 if __name__ == "__main__":
-    # Ensure app runs on 0.0.0.0 for container environments
-    app.run(host="0.0.0.0", port=5000, debug=True)
+    app.run(host="0.0.0.0", port=5000)
+
+
